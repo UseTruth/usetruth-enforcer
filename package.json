@@ -1,0 +1,43 @@
+{
+  "name": "usetruth-enforcer",
+  "version": "0.1.0",
+  "description": "Deny-by-default enforcer for UseTruth signed verdicts. Put an independent, offline-verifiable ES256 clearance in front of any AI agent before an action or message goes out.",
+  "type": "module",
+  "main": "src/enforcer.mjs",
+  "exports": {
+    ".": "./src/enforcer.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "src/",
+    "SPEC.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "example": "node examples/clearance-in-5-lines.mjs",
+    "live-test": "node examples/live-test.mjs"
+  },
+  "keywords": [
+    "ai-agents",
+    "agent-security",
+    "mcp",
+    "llm",
+    "authorization",
+    "clearance",
+    "signed-receipt",
+    "attestation",
+    "es256",
+    "deny-by-default",
+    "arcade",
+    "langchain"
+  ],
+  "license": "MIT",
+  "homepage": "https://usetruth.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UseTruth/usetruth-enforcer"
+  }
+}
